@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"io"
 
+	proto "github.com/hyperledgendary/fabric-protos-go/gateway"
 	"github.com/hyperledger/fabric-gateway/pkg/connection"
 	"github.com/hyperledger/fabric-gateway/pkg/hash"
 	"github.com/hyperledger/fabric-gateway/pkg/identity"
-	proto "github.com/hyperledger/fabric-protos-go/gateway"
 	"google.golang.org/grpc"
 )
 

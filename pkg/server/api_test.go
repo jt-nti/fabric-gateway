@@ -14,8 +14,8 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/common"
 
+	pb "github.com/hyperledgendary/fabric-protos-go/gateway"
 	"github.com/hyperledger/fabric-gateway/pkg/server/mocks"
-	pb "github.com/hyperledger/fabric-protos-go/gateway"
 
 	"github.com/hyperledger/fabric-protos-go/peer"
 )

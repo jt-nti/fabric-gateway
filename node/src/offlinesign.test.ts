@@ -9,7 +9,7 @@ import { Contract } from './contract';
 import { connect, Gateway, InternalConnectOptions } from './gateway';
 import { Identity } from './identity/identity';
 import { Network } from './network';
-import { protos } from './protos/protos';
+import { protos } from '@hyperledgendary/fabric-protos/gateway/gateway_pb';
 
 interface MockGatewayClient extends GatewayClient {
     endorse: jest.Mock<Promise<protos.IPreparedTransaction>, protos.IProposedTransaction[]>,

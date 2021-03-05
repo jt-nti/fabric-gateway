@@ -5,7 +5,7 @@
  */
 
 import * as grpc from '@grpc/grpc-js';
-import { protos } from './protos/protos';
+import { protos } from '@hyperledgendary/fabric-protos/gateway/gateway_pb';
 
 const servicePath = '/protos.Gateway/';
 const evaluateMethod = servicePath + 'Evaluate';

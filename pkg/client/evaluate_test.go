@@ -15,8 +15,8 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
+	"github.com/hyperledgendary/fabric-protos-go/gateway"
 	"github.com/hyperledger/fabric-gateway/pkg/internal/test"
-	"github.com/hyperledger/fabric-protos-go/gateway"
 )
 
 func TestEvaluateTransaction(t *testing.T) {

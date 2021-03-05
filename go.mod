@@ -10,6 +10,7 @@ require (
 	github.com/gogo/protobuf v1.3.1
 	github.com/golang/mock v1.4.4
 	github.com/golang/protobuf v1.4.3
+	github.com/hyperledgendary/fabric-protos-go v0.0.0-20210305111052-79afef55cf4b
 	github.com/hyperledger/fabric v2.1.1+incompatible
 	github.com/hyperledger/fabric-amcl v0.0.0-20200424173818-327c9e2cf77a // indirect
 	github.com/hyperledger/fabric-protos-go v0.0.0-20210127161553-4f432a78f286

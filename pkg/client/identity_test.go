@@ -14,10 +14,10 @@ import (
 
 	"github.com/golang/mock/gomock"
 	"github.com/golang/protobuf/proto"
+	"github.com/hyperledgendary/fabric-protos-go/gateway"
 	"github.com/hyperledger/fabric-gateway/pkg/identity"
 	"github.com/hyperledger/fabric-gateway/pkg/internal/test"
 	"github.com/hyperledger/fabric-protos-go/common"
-	"github.com/hyperledger/fabric-protos-go/gateway"
 	"github.com/hyperledger/fabric-protos-go/msp"
 	"google.golang.org/grpc"
 )

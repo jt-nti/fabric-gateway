@@ -11,9 +11,9 @@ import (
 	"log"
 	"net"
 
+	pb "github.com/hyperledgendary/fabric-protos-go/gateway"
 	"github.com/hyperledger/fabric-gateway/pkg/network"
 	"github.com/hyperledger/fabric-gateway/pkg/server"
-	pb "github.com/hyperledger/fabric-protos-go/gateway"
 	"google.golang.org/grpc"
 )
 

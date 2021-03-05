@@ -13,8 +13,8 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
+	"github.com/hyperledgendary/fabric-protos-go/gateway"
 	"github.com/hyperledger/fabric-protos-go/common"
-	"github.com/hyperledger/fabric-protos-go/gateway"
 	"google.golang.org/grpc"
 )
 
